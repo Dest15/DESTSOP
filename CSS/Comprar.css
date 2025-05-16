@@ -22,8 +22,9 @@ header {
   align-items: center;
 }
 .img-logo {
-  height: 50px;
-  margin-left: 10px;
+  width: 200px;
+  height: 70px;
+  margin-bottom: -5px;
 }
 a {
   text-decoration: none;
@@ -37,7 +38,11 @@ nav {
 nav a:hover {
   color: red;
 }
-
+footer {
+  background-color: rgb(190, 190, 253);
+  text-align: center;
+  padding: 10px;
+}
 @media (max-wigth: 600px) {
   header {
     flex-direction: column;
