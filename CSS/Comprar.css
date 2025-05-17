@@ -3,28 +3,19 @@ body {
   background-color: #ffeeee;
   margin: 0;
 }
-.btn-dest {
-  background-color: #0004f8;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
-}
-.btn-dest:hover {
-  color: red;
-}
+
 header {
   display: flex;
+  flex-direction: column;
   min-height: 70px;
-  background-color: rgb(190, 190, 253);
+  background-image: linear-gradient(10deg, #000020, 85%, #0000ff);
   justify-content: space-between;
   align-items: center;
 }
 .img-logo {
-  width: 200px;
-  height: 70px;
-  margin-bottom: -5px;
+  width: 150px;
+  height: 60px;
+  margin: 5px;
 }
 a {
   text-decoration: none;
@@ -38,14 +29,26 @@ nav {
 nav a:hover {
   color: red;
 }
+.btn-dest {
+  background-color: #0004f8;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.btn-dest:hover {
+  color: red;
+}
 footer {
   background-color: rgb(190, 190, 253);
   text-align: center;
   padding: 10px;
 }
-@media (max-wigth: 600px) {
+@media (min-width: 600px) {
   header {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
   }
   nav {
     padding: 10px 0px;
