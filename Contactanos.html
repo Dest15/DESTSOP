@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Contactanos.css">
+</head>
+<body>
+   <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/DEST CODE logo.png" alt="Principal" class="img-logo"/>
+        </a>
+      </div>
+      <!-- botones de hamburguesa -->
+      <button id="abrir-menu" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <!-- Navegacion principal -->
+      <nav id="nav" class="nav">
+        <button id="cerrar-menu" class="cerrar-menu"><i class="bi bi-x-square"></i></button>
+        <ul class="nav-list">
+          <li><a href="index.html">Principal</a></li>
+          <li><a href="Comprar.html">Comprar</a></li>
+          <li><a href="Contactanos.html">Contactanos</a></li>
+        </ul>
+      </nav>
+      
+    </header>   
+    <main>
+        <section class="formulario">
+          <h2 class="titulo-form">Dejanos tu contacto y nos comunicaremos lo mas pronto posible contigo</h2>
+          <div class="contenedor-forms">
+            <form action="#" method="post" class="correo-form">
+              <h3>¿Por correo?</h3>
+
+                <input type="text" id="nombre" placeholder="Nombre" required>
+
+                <input type="email" id="email" placeholder="Email" required>
+
+                <input type="text" id="mensaje" placeholder="¿Qué necesitas?" required>
+
+                <button type="submit"><i class="bi bi-envelope-open-fill"></i> Correo</button>
+            </form>
+            
+            <form action="#" method="post" class="telefono-form">
+              <h3>¿Por llamada?</h3>
+                <input type="text" id="nombre" placeholder="Nombre" required>
+
+                <input type="tel" id="telefono" placeholder="Teléfono" required>
+
+                <input type="text" id="mensaje" placeholder="¿Qué necesitas?" required>
+
+                <button type="submit"><i class="bi bi-telephone-fill"></i> Telefono</button>
+            </form>
+
+            <form action="#" method="post" class="whatsapp-form">
+                <h3>¿Por WhatsApp?</h3>
+
+                <input type="text" id="nombre" placeholder="Nombre" required>
+
+                <input type="tel" id="whatsapp" placeholder="Whatsapp" required>
+
+                <input type="text" id="mensaje" placeholder="¿Qué necesitas?" required>
+
+                <button type="submit"><i class="bi bi-whatsapp"></i> Whatsapp</button>
+            </form>
+          </div>  
+        </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>© 2025 DEST CODE. Todos los derechos reservados.</p>
+        <p>Contacto: +57 324 5108777</p>
+        <p>Correo:Destcodegg@gmail.com</p>
+        <p>Dirección: Mercaderes, Cauca</p>
+      </div>
+    </footer>
+    <script src="JS/Contactanos.js"></script>
+</body>
+</html>
