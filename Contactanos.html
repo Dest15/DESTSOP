@@ -34,39 +34,46 @@
         <section class="formulario">
           <h2 class="titulo-form">Dejanos tu contacto y nos comunicaremos lo mas pronto posible contigo</h2>
           <div class="contenedor-forms">
-            <form action="#" method="post" class="correo-form">
-              <h3>¿Por correo?</h3>
+            <form action="https://formsubmit.co/destcodegg@gmail.com" method="post" class="correo-form">
 
-                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="text" name="nombre" placeholder="Nombre" required>
 
-                <input type="email" id="email" placeholder="Email" required>
+                <input type="email" name="email" placeholder="Email" required>
 
-                <input type="text" id="mensaje" placeholder="¿Qué necesitas?" required>
+                <textarea name="mensaje" placeholder="¿Qué necesitas?" required></textarea>
 
                 <button type="submit"><i class="bi bi-envelope-open-fill"></i> Correo</button>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/Contactanos.html">
+                <input type="hidden" name="_captcha" value="false">
             </form>
-            
-            <form action="#" method="post" class="telefono-form">
-              <h3>¿Por llamada?</h3>
-                <input type="text" id="nombre" placeholder="Nombre" required>
 
-                <input type="tel" id="telefono" placeholder="Teléfono" required>
+            <form action="https://formsubmit.co/destcodegg@gmail.com" method="post" class="telefono-form">
 
-                <input type="text" id="mensaje" placeholder="¿Qué necesitas?" required>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+
+                <input type="tel" name="telefono" placeholder="Teléfono" required>
+
+                <textarea name="mensaje" placeholder="¿Qué necesitas?" required></textarea>
 
                 <button type="submit"><i class="bi bi-telephone-fill"></i> Telefono</button>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/Contactanos.html">
+                <input type="hidden" name="_captcha" value="false">
             </form>
 
-            <form action="#" method="post" class="whatsapp-form">
-                <h3>¿Por WhatsApp?</h3>
+            <form action="https://formsubmit.co/destcodegg@gmail.com" method="post" class="whatsapp-form">
 
-                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="text" name="nombre" placeholder="Nombre" required>
 
-                <input type="tel" id="whatsapp" placeholder="Whatsapp" required>
+                <input type="tel" name="whatsapp" placeholder="Whatsapp" required>
 
-                <input type="text" id="mensaje" placeholder="¿Qué necesitas?" required>
+                <textarea name="mensaje" placeholder="¿Qué necesitas?" required></textarea>
 
                 <button type="submit"><i class="bi bi-whatsapp"></i> Whatsapp</button>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/Contactanos.html">
+                <input type="hidden" name="_captcha" value="false">
             </form>
           </div>  
         </section>
